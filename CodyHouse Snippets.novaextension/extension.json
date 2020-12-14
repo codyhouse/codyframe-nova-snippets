@@ -1,0 +1,20 @@
+{
+    "identifier": "org.CodyHouseSnippets",
+    "name": "CodyHouse Snippets",
+    "organization": "CodyHouse",
+    "description": "HTML, CSS, JS autocomplete for CodyFrame.",
+    "version": "1.0",
+    "categories": ["completions", "clips"],
+    "repository": "https://github.com/CodyHouse/codyframe-nova-snippets",
+    "bugs": "https://github.com/CodyHouse/codyframe-nova-snippets/issues",
+    
+    "main": "main.js",
+    
+    "activationEvents": [
+        "onLanguage:html"
+    ],
+    
+    "entitlements": {
+        
+    }
+}

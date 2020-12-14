@@ -1,0 +1,782 @@
+{
+  "clips" : [
+    {
+      "content" : "$AUTHOR_NAME",
+      "name" : "User Signature",
+      "trigger" : "usersig"
+    },
+    {
+      "name" : "CSS Snippets",
+      "children" : [
+        {
+          "content": "@include srHide;",
+          "name": "@include srHide;",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "srHide"
+        },
+        {
+          "content": "@include srShow;",
+          "name": "@include srShow;",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "srShow"
+        },
+        {
+          "content": "@include breakpoint(${1:md}) {\n  ${2}\n}",
+          "name": "@include breakpoint...",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "breakpoint"
+        },
+        {
+          "content": "@include defineColorHSL(--${1}, ${2:220}, ${3:90}%, ${4:36}%);",
+          "name": "@include defineColorHSL...",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "defineColorHSL"
+        },
+        {
+          "content": "var(--color-primary-darker)",
+          "name": "var(--color-primary-darker)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-primary-darker"
+        },
+        {
+          "content": "var(--color-primary-dark)",
+          "name": "var(--color-primary-dark)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-primary-dark"
+        },
+        {
+          "content": "var(--color-primary)",
+          "name": "var(--color-primary)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-primary"
+        },
+        {
+          "content": "var(--color-primary-light)",
+          "name": "var(--color-primary-light)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-primary-light"
+        },
+        {
+          "content": "var(--color-primary-lighter)",
+          "name": "var(--color-primary-lighter)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-primary-lighter"
+        },
+        {
+          "content": "var(--color-accent-darker)",
+          "name": "var(--color-accent-darker)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-accent-darker"
+        },
+        {
+          "content": "var(--color-accent-dark)",
+          "name": "var(--color-accent-dark)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-accent-dark"
+        },
+        {
+          "content": "var(--color-accent)",
+          "name": "var(--color-accent)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-accent"
+        },
+        {
+          "content": "var(--color-accent-light)",
+          "name": "var(--color-accent-light)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-accent-light"
+        },
+        {
+          "content": "var(--color-accent-lighter)",
+          "name": "var(--color-accent-lighter)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-accent-lighter"
+        },
+        {
+          "content": "var(--color-black)",
+          "name": "var(--color-black)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-black"
+        },
+        {
+          "content": "var(--color-white)",
+          "name": "var(--color-white)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-white"
+        },
+        {
+          "content": "var(--color-success-darker)",
+          "name": "var(--color-success-darker)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-success-darker"
+        },
+        {
+          "content": "var(--color-success-dark)",
+          "name": "var(--color-success-dark",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-success-dark"
+        },
+        {
+          "content": "var(--color-success)",
+          "name": "var(--color-success)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-success"
+        },
+        {
+          "content": "var(--color-success-light)",
+          "name": "var(--color-success-light)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-success-light"
+        },
+        {
+          "content": "var(--color-success-lighter)",
+          "name": "var(--color-success-lighter)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-success-lighter"
+        },
+        {
+          "content": "var(--color-error-darker)",
+          "name": "var(--color-error-darker)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-error-darker"
+        },
+        {
+          "content": "var(--color-error-dark)",
+          "name": "var(--color-error-dark)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-error-dark"
+        },
+        {
+          "content": "var(--color-error)",
+          "name": "var(--color-error)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-error"
+        },
+        {
+          "content": "var(--color-error-light)",
+          "name": "var(--color-error-light)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-error-light"
+        },
+        {
+          "content": "var(--color-error-lighter)",
+          "name": "var(--color-error-lighter)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-error-lighter"
+        },
+        {
+          "content": "var(--color-warning-darker)",
+          "name": "var(--color-warning-darker)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-warning-darker"
+        },
+        {
+          "content": "var(--color-warning-dark)",
+          "name": "var(--color-warning-dark)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-warning-dark"
+        },
+        {
+          "content": "var(--color-warning)",
+          "name": "var(--color-warning)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-warning"
+        },
+        {
+          "content": "var(--color-warning-light)",
+          "name": "var(--color-warning-light)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-warning-light"
+        },
+        {
+          "content": "var(--color-warning-lighter)",
+          "name": "var(--color-warning-lighter)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-warning-lighter"
+        },
+        {
+          "content": "var(--color-bg)",
+          "name": "var(--color-bg)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-bg"
+        },
+        {
+          "content": "var(--color-contrast-lower)",
+          "name": "var(--color-contrast-lower)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-contrast-lower"
+        },
+        {
+          "content": "var(--color-contrast-low)",
+          "name": "var(--color-contrast-low)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-contrast-low"
+        },
+        {
+          "content": "var(--color-contrast-medium)",
+          "name": "var(--color-contrast-medium)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-contrast-medium"
+        },
+        {
+          "content": "var(--color-contrast-high)",
+          "name": "var(--color-contrast-high)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-contrast-high"
+        },
+        {
+          "content": "var(--color-contrast-higher)",
+          "name": "var(--color-contrast-higher)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--color-contrast-higher"
+        },
+        {
+          "content": "@include fontSmooth;",
+          "name": "@include fontSmooth;",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "fontSmooth"
+        },
+        {
+          "content": "@include lhCrop(${1:lineHeight}, ${2:var(--font-primary-capital-letter): 1});",
+          "name": "@include lhCrop...",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "lhCrop"
+        },
+        {
+          "content": "@include triangle(${1:direction: up/down/left/right}, ${2:width: 12px}, ${3:color});",
+          "name": "@include triangle...",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "triangle"
+        },
+        {
+          "content": "@include reset;",
+          "name": "@include reset;",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "reset"
+        },
+        {
+          "content": "alpha(${1:color}, ${2:opacity: 1});",
+          "name": "alpha(...)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "alpha"
+        },
+        {
+          "content": "lightness(${1:color}, ${2:lightnessMultiplier: 1});",
+          "name": "lightness(...)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "lightness"
+        },
+        {
+          "content": "@include spaceUnit(${1:spaceUnit});",
+          "name": "@include spaceUnit...",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "spaceUnit"
+        },
+        {
+          "content": "@include textUnit(${1:textUnit});",
+          "name": "@include textUnit...",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "textUnit"
+        },
+        {
+          "content": "var(--ease-out-back)",
+          "name": "var(--ease-out-back)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--ease-out-back timing function"
+        },
+        {
+          "content": "var(--ease-in-out)",
+          "name": "var(--ease-in-out)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--ease-in-out timing function"
+        },
+        {
+          "content": "var(--ease-in)",
+          "name": "var(--ease-in)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--ease-in timing function"
+        },
+        {
+          "content": "var(--ease-out)",
+          "name": "var(--ease-out)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--ease-out timing function"
+        },
+        {
+          "content": "var(--radius-sm)",
+          "name": "var(--radius-sm)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--radius-sm"
+        },
+        {
+          "content": "var(--radius-md)",
+          "name": "var(--radius-md)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--radius-md"
+        },
+        {
+          "content": "var(--radius-lg)",
+          "name": "var(--radius-lg)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--radius-lg"
+        },
+        {
+          "content": "var(--shadow-xs)",
+          "name": "var(--shadow-xs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--shadow-xs"
+        },
+        {
+          "content": "var(--shadow-sm)",
+          "name": "var(--shadow-sm)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--shadow-sm"
+        },
+        {
+          "content": "var(--shadow-md)",
+          "name": "var(--shadow-md)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--shadow-md"
+        },
+        {
+          "content": "var(--shadow-lg)",
+          "name": "var(--shadow-lg)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--shadow-lg"
+        },
+        {
+          "content": "var(--shadow-xl)",
+          "name": "var(--shadow-xl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--shadow-xl"
+        },
+        {
+          "content": "var(--space-xxxxs)",
+          "name": "var(--space-xxxxs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-xxxxs"
+        },
+        {
+          "content": "var(--space-xxxs)",
+          "name": "var(--space-xxxs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-xxxs"
+        },
+        {
+          "content": "var(--space-xxs)",
+          "name": "var(--space-xxs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-xxs"
+        },
+        {
+          "content": "var(--space-xs)",
+          "name": "var(--space-xs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-xs"
+        },
+        {
+          "content": "var(--space-sm)",
+          "name": "var(--space-sm)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-sm"
+        },
+        {
+          "content": "var(--space-md)",
+          "name": "var(--space-md",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-md"
+        },
+        {
+          "content": "var(--space-lg)",
+          "name": "var(--space-lg",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-lg"
+        },
+        {
+          "content": "var(--space-xl)",
+          "name": "var(--space-xl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-xl"
+        },
+        {
+          "content": "var(--space-xxl)",
+          "name": "var(--space-xxl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-xxl"
+        },
+        {
+          "content": "var(--space-xxxl)",
+          "name": "var(--space-xxxl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-xxxl"
+        },
+        {
+          "content": "var(--space-xxxxl)",
+          "name": "var(--space-xxxxl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-xxxxl"
+        },
+        {
+          "content": "var(--component-padding)",
+          "name": "var(--component-padding)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--component-padding"
+        },
+        {
+          "content": "var(--body-line-height)",
+          "name": "var(--body-line-height)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--body-line-height"
+        },
+        {
+          "content": "var(--heading-line-height)",
+          "name": "var(--heading-line-height)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--heading-line-height"
+        },
+        {
+          "content": "var(--line-height-multiplier)",
+          "name": "var(--line-height-multiplier)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--line-height-multiplier"
+        },
+        {
+          "content": "var(--text-vspace-multiplier)",
+          "name": "var(--text-vspace-multiplier)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-vspace-multiplier"
+        },
+        {
+          "content": "var(--font-primary)",
+          "name": "var(--font-primary)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--font-primary"
+        },
+        {
+          "content": "var(--text-base-size)",
+          "name": "var(--text-base-size)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-base-size"
+        },
+        {
+          "content": "var(--text-scale-ratio)",
+          "name": "var(--text-scale-ratio)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-scale-ratio"
+        },
+        {
+          "content": "var(--text-xs)",
+          "name": "var(--text-xs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-xs"
+        },
+        {
+          "content": "var(--text-sm)",
+          "name": "var(--text-sm)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-sm"
+        },
+        {
+          "content": "var(--text-md)",
+          "name": "var(--text-md)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-md"
+        },
+        {
+          "content": "var(--text-lg)",
+          "name": "var(--text-lg)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-lg"
+        },
+        {
+          "content": "var(--text-xl)",
+          "name": "var(--text-xl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-xl"
+        },
+        {
+          "content": "var(--text-xxl)",
+          "name": "var(--text-xxl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-xxl"
+        },
+        {
+          "content": "var(--text-xxxl)",
+          "name": "var(--text-xxxl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-xxxl"
+        },
+        {
+          "content": "var(--display)",
+          "name": "var(--display)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--display"
+        },
+        {
+          "content": "var(--zindex-header)",
+          "name": "var(--zindex-header)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--zindex-header"
+        },
+        {
+          "content": "var(--zindex-popover)",
+          "name": "var(--zindex-popover)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--zindex-popover"
+        },
+        {
+          "content": "var(--zindex-fixed-element)",
+          "name": "var(--zindex-fixed-element)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--zindex-fixed-element"
+        },
+        {
+          "content": "var(--zindex-overlay)",
+          "name": "var(--zindex-overlay)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--zindex-overlay"
+        },
+        {
+          "content": "var(--max-width-xxxxs)",
+          "name": "var(--max-width-xxxxs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-xxxxs"
+        },
+        {
+          "content": "var(--max-width-xxxs)",
+          "name": "var(--max-width-xxxs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-xxxs"
+        },
+        {
+          "content": "var(--max-width-xxs)",
+          "name": "var(--max-width-xxs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-xxs"
+        },
+        {
+          "content": "var(--max-width-xs)",
+          "name": "var(--max-width-xs)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-xs"
+        },
+        {
+          "content": "var(--max-width-sm)",
+          "name": "var(--max-width-sm)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-sm"
+        },
+        {
+          "content": "var(--max-width-md)",
+          "name": "var(--max-width-md)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-md"
+        },
+        {
+          "content": "var(--max-width-lg)",
+          "name": "var(--max-width-lg)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-lg"
+        },
+        {
+          "content": "var(--max-width-xl)",
+          "name": "var(--max-width-xl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-xl"
+        },
+        {
+          "content": "var(--max-width-xxl)",
+          "name": "var(--max-width-xxl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-xxl"
+        },
+        {
+          "content": "var(--max-width-xxxl)",
+          "name": "var(--max-width-xxxl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-xxxl"
+        },
+        {
+          "content": "var(--max-width-xxxxl)",
+          "name": "var(--max-width-xxxxl)",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--max-width-xxxxl"
+        },
+        {
+          "content": "--space-unit",
+          "name": "--space-unit",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--space-unit"
+        },
+        {
+          "content": "--text-unit",
+          "name": "--text-unit",
+          "scope": "editor",
+          "syntax": "css",
+          "trigger": "--text-unit"
+        }
+      ]
+    },
+    {
+      "name" : "JS Snippets",
+      "children" : [
+        {
+          "content": "Util.addClass(${1:element}, '${2:className}');",
+          "name": "addClass",
+          "scope": "editor",
+          "syntax": "javascript",
+          "trigger": "addClass"
+        },
+        {
+          "content": "Util.removeClass(${1:element}, '${2:className}');",
+          "name": "removeClass",
+          "scope": "editor",
+          "syntax": "javascript",
+          "trigger": "removeClass"
+        },
+        {
+          "content": "Util.hasClass(${1:element}, '${2:className}');",
+          "name": "hasClass",
+          "scope": "editor",
+          "syntax": "javascript",
+          "trigger": "hasClass"
+        },
+        {
+          "content": "Util.toggleClass(${1:element}, '${2:className}', ${3:bool});",
+          "name": "toggleClass",
+          "scope": "editor",
+          "syntax": "javascript",
+          "trigger": "toggleClass"
+        },
+        {
+          "content": "Util.cssSupports('${1:display}', '${2:block}');",
+          "name": "supports",
+          "scope": "editor",
+          "syntax": "javascript",
+          "trigger": "supports"
+        },
+        {
+          "content": "Util.moveFocus(${1:element});",
+          "name": "focus",
+          "scope": "editor",
+          "syntax": "javascript",
+          "trigger": "focus"
+        },
+        {
+          "content": "Util.getChildrenByClassName(${1:element}, '${2:className}');",
+          "name": "children",
+          "scope": "editor",
+          "syntax": "javascript",
+          "trigger": "children"
+        },
+        {
+          "content": "Util.getIndexInArray(${1:array}, ${2:element});",
+          "name": "index",
+          "scope": "editor",
+          "syntax": "javascript",
+          "trigger": "index"
+        }
+      ]
+    }
+  ]
+}
