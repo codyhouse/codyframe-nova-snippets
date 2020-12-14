@@ -1,6 +1,6 @@
 {
-    "identifier": "org.CodyHouseSnippets",
-    "name": "CodyHouse Snippets",
+    "identifier": "cody.CodyFrameSnippets",
+    "name": "CodyFrame Snippets",
     "organization": "CodyHouse",
     "description": "HTML, CSS, JS autocomplete for CodyFrame.",
     "version": "1.0",
