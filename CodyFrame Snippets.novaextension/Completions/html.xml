@@ -1651,6 +1651,11 @@
     <completion string="offset-11@md"/>
     <completion string="offset-11@lg"/>
     <completion string="offset-11@xl"/>
+    <completion string="offset-0@xs"/>
+    <completion string="offset-0@sm"/>
+    <completion string="offset-0@md"/>
+    <completion string="offset-0@lg"/>
+    <completion string="offset-0@xl"/>
     <completion string="text-xxxxl"/>
     <completion string="text-xxxl"/>
     <completion string="text-xxl"/>
